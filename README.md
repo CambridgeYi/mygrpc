@@ -1,4 +1,6 @@
 - #### 参考
+    - [Protocol Buffer技术详解(语言规范)](https://www.cnblogs.com/stephen-liu74/archive/2013/01/02/2841485.html)
+    - [protobuffer、gRPC、restful gRPC的相互转化(复杂类demo)](https://www.cnblogs.com/sevenyuan/p/8535382.html)
     - [protobuf官网](https://github.com/protocolbuffers/protobuf/releases)
 - #### grpc安装
     - 参考
@@ -25,6 +27,9 @@
                 - go install ./google.golang.org/grpc
             5. 最终文件夹格式:
                  ![grpc安装](imgs/grpc.png)
+        * 安装grpc-gateway
+            1. go get -u github.com/grpc-ecosystem/grpc-gateway(clone到github.com)
+            2. 参考命令 protoc-gen-grpc-gateway: Plugin failed with status code 1.
 -  问题
     - 1. 'protoc-gen-go' 不是内部或外部命令，也不是可运行的程序
         - 参考:[golang使用protobuf简易教程](https://blog.csdn.net/qq_15437667/article/details/78425151)
