@@ -30,6 +30,7 @@
         * 安装grpc-gateway
             1. go get -u github.com/grpc-ecosystem/grpc-gateway(clone到github.com)
             2. 参考命令 protoc-gen-grpc-gateway: Plugin failed with status code 1.
+            3. protoc -IC:\code\mygrpc\proto\helloworld -I. -IC:\GOPATH/src -IC:\GOPATH\src\github.com\grpc-ecosystem\grpc-gateway\third_party\googleapis --go_out=plugins=grpc:. C:\code\mygrpc\proto\helloworld\helloworld.proto
 -  问题
     - 1. 'protoc-gen-go' 不是内部或外部命令，也不是可运行的程序
         - 参考:[golang使用protobuf简易教程](https://blog.csdn.net/qq_15437667/article/details/78425151)
