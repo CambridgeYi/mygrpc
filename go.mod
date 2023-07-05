@@ -3,7 +3,8 @@ module mygrpc
 go 1.12
 
 require (
-	github.com/golang/protobuf v1.3.1
-	google.golang.org/grpc v1.21.1
+	github.com/golang/protobuf v1.5.2
+	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f
+	google.golang.org/grpc v1.53.0
 
 )
